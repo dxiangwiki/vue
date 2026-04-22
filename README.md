@@ -1,33 +1,58 @@
-## Vue 2 has reached End of Life ssss
 
-**You are looking at the now inactive repository for Vue 2. The actively maintained repository for the latest version of Vue is [vuejs/core](https://github.com/vuejs/core).**
+## Vue 2 has reached End of Life
 
-Vue has reached End of Life on December 31st, 2023. It no longer receives new features, updates, or fixes. However, it is still available on all existing distribution channels (CDNs, package managers, Github, etc).
+> Vue 2 is now **end-of-life** and no longer maintained.
+> This repository is archived and inactive.
+> For the latest actively maintained version of Vue, see [vuejs/core](https://github.com/vuejs/core).
 
-If you are starting a new project, please start with the latest version of Vue (3.x). We also strongly recommend current Vue 2 users to upgrade ([guide](https://v3-migration.vuejs.org/)), but we also acknowledge that not all users have the bandwidth or incentive to do so. If you have to stay on Vue 2 but also have compliance or security requirements about unmaintained software, check out [Vue 2 NES](https://www.herodevs.com/support/nes-vue?utm_source=vuejs-github&utm_medium=vue2-readme).
+Vue 2 officially reached EOL on **December 31, 2023**.
+There will be **no new features, bug fixes or security patches** going forward.
+The package remains available via all existing distribution channels (CDN, npm, GitHub, etc).
 
-<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
+- For new projects: please use the latest stable **Vue 3.x**.
+- For existing Vue 2 projects: we strongly recommend upgrading via the [official migration guide](https://v3-migration.vuejs.org/).
+- If you must stay on Vue 2 and require long-term security & compliance support, check out [Vue 2 NES](https://www.herodevs.com/support/nes-vue?utm_source=vuejs-github&utm_medium=vue2-readme).
 
 <p align="center">
-  <a href="https://circleci.com/gh/vuejs/vue/tree/dev"><img src="https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg?sanitize=true" alt="Build Status"></a>
-  <a href="https://codecov.io/github/vuejs/vue?branch=dev"><img src="https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg?sanitize=true" alt="Coverage Status"></a>
-  <a href="https://npmcharts.com/compare/vue?minimal=true"><img src="https://img.shields.io/npm/dm/vue.svg?sanitize=true" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/v/vue.svg?sanitize=true" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/l/vue.svg?sanitize=true" alt="License"></a>
-  <a href="https://chat.vuejs.org/"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true" alt="Chat"></a>
+  <a href="https://vuejs.org" target="_blank" rel="noopener noreferrer">
+    <img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo">
+  </a>
 </p>
+
+<p align="center">
+  <a href="https://circleci.com/gh/vuejs/vue/tree/dev">
+    <img src="https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg?sanitize=true" alt="Build Status">
+  </a>
+  <a href="https://codecov.io/github/vuejs/vue?branch=dev">
+    <img src="https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg?sanitize=true" alt="Coverage Status">
+  </a>
+  <a href="https://npmcharts.com/compare/vue?minimal=true">
+    <img src="https://img.shields.io/npm/dm/vue.svg?sanitize=true" alt="Downloads">
+  </a>
+  <a href="https://www.npmjs.com/package/vue">
+    <img src="https://img.shields.io/npm/v/vue.svg?sanitize=true" alt="Version">
+  </a>
+  <a href="https://www.npmjs.com/package/vue">
+    <img src="https://img.shields.io/npm/l/vue.svg?sanitize=true" alt="License">
+  </a>
+  <a href="https://chat.vuejs.org/">
+    <img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true" alt="Chat">
+  </a>
+</p>
+
+---
 
 ## Sponsors
 
-Vue.js is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome [backers](https://github.com/vuejs/core/blob/main/BACKERS.md). If you'd like to join them, please consider [ sponsor Vue's development](https://vuejs.org/sponsor/).
+Vue.js is an MIT-licensed open source project.
+Ongoing development is made possible by the support of our backers and sponsors.
+
+If you’d like to support Vue, consider [sponsoring Vue](https://vuejs.org/sponsor/).
 
 <p align="center">
-  <h3 align="center">Special Sponsor</h3>
-</p>
-
-<p align="center">
+  <h3>Special Sponsor</h3>
   <a target="_blank" href="https://github.com/appwrite/appwrite">
-  <img alt="special sponsor appwrite" src="https://sponsors.vuejs.org/images/appwrite.svg" width="300">
+    <img alt="special sponsor appwrite" src="https://sponsors.vuejs.org/images/appwrite.svg" width="300">
   </a>
 </p>
 
@@ -41,24 +66,31 @@ Vue.js is an MIT-licensed open source project with its ongoing development made 
 
 ## Introduction
 
-Vue (pronounced `/vjuː/`, like view) is a **progressive framework** for building user interfaces. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on different use cases. It consists of an approachable core library that focuses on the view layer only, and an ecosystem of supporting libraries that helps you tackle complexity in large Single-Page Applications.
+Vue (pronounced `/vjuː/`, like **view**) is a progressive framework for building user interfaces.
 
-#### Browser Compatibility
+Designed for incremental adoption:
+- Lightweight and approachable core library focused only on the view layer
+- Scales seamlessly from small libraries to large enterprise SPAs
+- Rich official ecosystem for complex application development
 
-Vue.js supports all browsers that are [ES5-compliant](https://compat-table.github.io/compat-table/es5/) (IE8 and below are not supported).
+### Browser Compatibility
+Supports all **ES5-compliant** browsers.
+IE8 and below are **not supported**.
+
+---
 
 ## Ecosystem
 
-| Project               | Status                                                       | Description                                             |
-| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
-| [vue-router]          | [![vue-router-status]][vue-router-package]                   | Single-page application routing                         |
-| [vuex]                | [![vuex-status]][vuex-package]                               | Large-scale state management                            |
-| [vue-cli]             | [![vue-cli-status]][vue-cli-package]                         | Project scaffolding                                     |
-| [vue-loader]          | [![vue-loader-status]][vue-loader-package]                   | Single File Component (`*.vue` file) loader for webpack |
-| [vue-server-renderer] | [![vue-server-renderer-status]][vue-server-renderer-package] | Server-side rendering support                           |
-| [vue-class-component] | [![vue-class-component-status]][vue-class-component-package] | TypeScript decorator for a class-based API              |
-| [vue-rx]              | [![vue-rx-status]][vue-rx-package]                           | RxJS integration                                        |
-| [vue-devtools]        | [![vue-devtools-status]][vue-devtools-package]               | Browser DevTools extension                              |
+| Project | Description |
+|--------|-------------|
+| [vue-router] | Official SPA routing |
+| [vuex] | Centralized state management |
+| [vue-cli] | Standard project scaffolding |
+| [vue-loader] | Webpack loader for single-file components (`*.vue`) |
+| [vue-server-renderer] | Server-side rendering (SSR) |
+| [vue-class-component] | TypeScript class-based decorators |
+| [vue-rx] | RxJS integration |
+| [vue-devtools] | Browser debugging extension |
 
 [vue-router]: https://github.com/vuejs/vue-router
 [vuex]: https://github.com/vuejs/vuex
@@ -68,52 +100,34 @@ Vue.js supports all browsers that are [ES5-compliant](https://compat-table.githu
 [vue-class-component]: https://github.com/vuejs/vue-class-component
 [vue-rx]: https://github.com/vuejs/vue-rx
 [vue-devtools]: https://github.com/vuejs/vue-devtools
-[vue-router-status]: https://img.shields.io/npm/v/vue-router.svg
-[vuex-status]: https://img.shields.io/npm/v/vuex.svg
-[vue-cli-status]: https://img.shields.io/npm/v/@vue/cli.svg
-[vue-loader-status]: https://img.shields.io/npm/v/vue-loader.svg
-[vue-server-renderer-status]: https://img.shields.io/npm/v/vue-server-renderer.svg
-[vue-class-component-status]: https://img.shields.io/npm/v/vue-class-component.svg
-[vue-rx-status]: https://img.shields.io/npm/v/vue-rx.svg
-[vue-devtools-status]: https://img.shields.io/chrome-web-store/v/nhdogjmejiglipccpnnnanhbledajbpd.svg
-[vue-router-package]: https://npmjs.com/package/vue-router
-[vuex-package]: https://npmjs.com/package/vuex
-[vue-cli-package]: https://npmjs.com/package/@vue/cli
-[vue-loader-package]: https://npmjs.com/package/vue-loader
-[vue-server-renderer-package]: https://npmjs.com/package/vue-server-renderer
-[vue-class-component-package]: https://npmjs.com/package/vue-class-component
-[vue-rx-package]: https://npmjs.com/package/vue-rx
-[vue-devtools-package]: https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+
+---
 
 ## Documentation
 
-To check out [live examples](https://v2.vuejs.org/v2/examples/) and docs, visit [vuejs.org](https://v2.vuejs.org).
+- Full Docs: [v2.vuejs.org](https://v2.vuejs.org)
+- Live Examples: [vuejs.org/v2/examples](https://v2.vuejs.org/v2/examples/)
 
-## Questions
+## Community & Support
 
-For questions and support please use [the official forum](https://forum.vuejs.org) or [community chat](https://chat.vuejs.org/). The issue list of this repo is **exclusively** for bug reports and feature requests.
+- Official Forum: [forum.vuejs.org](https://forum.vuejs.org)
+- Community Chat: [Discord](https://chat.vuejs.org/)
+- This repo issues are **only for historical bug reports** — no new requests will be processed.
 
-## Issues
+## Issues & Contributions
 
-Please make sure to read the [Issue Reporting Checklist](https://github.com/vuejs/vue/blob/dev/.github/CONTRIBUTING.md#issue-reporting-guidelines) before opening an issue. Issues not conforming to the guidelines may be closed immediately.
+Please review the [Issue Reporting Guidelines](https://github.com/vuejs/vue/blob/dev/.github/CONTRIBUTING.md) before opening issues.
+
+This project is archived.
+No new features, PRs or general support requests will be accepted.
 
 ## Changelog
+Detailed release notes: [github.com/vuejs/vue/releases](https://github.com/vuejs/vue/releases)
 
-Detailed changes for each release are documented in the [release notes](https://github.com/vuejs/vue/releases).
-
-## Stay In Touch
-
+## Stay Connected
 - [Twitter](https://twitter.com/vuejs)
-- [Blog](https://medium.com/the-vue-point)
+- [Official Blog](https://medium.com/the-vue-point)
 - [Job Board](https://vuejobs.com/?ref=vuejs)
-
-## Contribution
-
-Please make sure to read the [Contributing Guide](https://github.com/vuejs/vue/blob/dev/.github/CONTRIBUTING.md) before making a pull request. If you have a Vue-related project/component/tool, add it with a pull request to [this curated list](https://github.com/vuejs/awesome-vue)!
-
-Thank you to all the people who already contributed to Vue!
-
-<a href="https://github.com/vuejs/vue/graphs/contributors"><img src="https://opencollective.com/vuejs/contributors.svg?width=890" /></a>
 
 ## License
 
